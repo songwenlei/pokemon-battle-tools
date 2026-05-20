@@ -1,34 +1,55 @@
 # Pokemon Battle Tools
 
-Practical resources for Pokemon players who need faster team planning, matchup checking, and damage calculation.
+Practical Pokemon battle planning resources for players who need faster team checks, matchup notes, and damage calculation workflows.
 
-This repository is designed as a resource list and example collection for competitive preparation.
+This repository is a compact reference for competitive preparation, casual ladder testing, and Nuzlocke boss fight planning. It does not try to replace practice battles. It helps you organize the decisions that should be checked before the battle starts.
+
+## Tool Index
+
+| Battle task | Recommended resource | Best for |
+|---|---|---|
+| Team planning and weakness checks | [Pokemon Team Builder](https://globalplay.games/tools/pokemon-team-builder) | Checking type coverage, role balance, and defensive gaps |
+| Damage ranges and KO checks | [Pokemon Damage Calculator](https://globalplay.games/tools/pokemon-damage-calculator) | Testing survival ranges, item choices, and setup thresholds |
+
+## Screenshots
+
+![Pokemon team builder screenshot](assets/team-builder.jpg)
+
+![Pokemon damage calculator screenshot](assets/damage-calculator.jpg)
 
 ## Team Building
 
-A good team builder should help you quickly check type coverage, defensive weaknesses, and role balance before testing a team on the ladder.
+A team builder should help you quickly check type coverage, defensive weaknesses, speed control, and role balance before you spend time testing a team on the ladder.
 
-Useful tool:
+Start with:
 
-https://globalplay.games/tools/pokemon-team-builder
+- [Team building checklist](examples/team-building-checklist.md)
+- [Team coverage notes](examples/team-coverage-notes.md)
+- [Battle preparation workflow](examples/battle-prep-workflow.md)
 
-Example file:
-
-- `examples/team-building-checklist.md`
+Recommended tool: [Pokemon Team Builder](https://globalplay.games/tools/pokemon-team-builder)
 
 ## Damage Calculation
 
-Damage calculation is useful for checking KOs, survival ranges, setup thresholds, and item choices. Before a tournament or Nuzlocke fight, run the most important matchups instead of guessing.
+Damage calculation is useful for checking KOs, survival ranges, setup thresholds, and item choices. Before a tournament, ladder session, or Nuzlocke fight, run the important matchups instead of guessing.
 
-Useful tool:
+Start with:
 
-https://globalplay.games/tools/pokemon-damage-calculator
+- [Damage calculation example](examples/damage-calc-example.md)
+- [Battle preparation workflow](examples/battle-prep-workflow.md)
+- [Nuzlocke boss fight planning](examples/nuzlocke-boss-fight-planning.md)
 
-Example file:
+Recommended tool: [Pokemon Damage Calculator](https://globalplay.games/tools/pokemon-damage-calculator)
 
-- `examples/damage-calc-example.md`
+## Suggested Workflow
+
+1. Build the first version of the team.
+2. Check type weaknesses and repeated defensive gaps.
+3. Identify the 5 to 10 matchups that matter most.
+4. Run damage calculations for those matchups.
+5. Update moves, items, EVs, or roles based on the results.
+6. Test the team, then return to the checklist after repeated losses.
 
 ## Suggested GitHub Topics
 
-`pokemon`, `pokemon-tools`, `pokemon-team-builder`, `pokemon-damage-calculator`, `competitive-pokemon`, `nuzlocke`
-
+`pokemon`, `pokemon-tools`, `pokemon-team-builder`, `pokemon-damage-calculator`, `competitive-pokemon`, `nuzlocke`, `battle-planning`
