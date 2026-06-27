@@ -28,6 +28,7 @@ Start with:
 - [Battle preparation workflow](examples/battle-prep-workflow.md)
 
 Recommended tool: [Pokemon Team Builder](https://globalplay.games/tools/pokemon-team-builder)
+- [GameToolsHub](https://gametoolshub.com/pokemon/type-calculator/) - Free browser-based Pokemon type calculator and game tools.
 
 ## Damage Calculation
 
